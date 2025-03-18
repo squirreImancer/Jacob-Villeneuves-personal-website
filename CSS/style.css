@@ -1,0 +1,238 @@
+body {
+    font-size: 1.5rem;
+    background-color: #6c547d;
+    color: white;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#name {
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between links as needed */
+}
+
+.link {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+    margin-top: 5px;
+    width: 300px;
+    color: rgb(67, 0, 83);
+    background-color: rgb(255, 224, 162);
+    text-decoration: none;
+    border-color: rgb(255, 192, 74);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    box-shadow: 10px 14px 0px black;
+    transition-duration: 0.5s;
+}
+
+.link:hover {
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 224, 162);
+    text-decoration: underline;
+    border-color: rgb(255, 192, 74);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 7px;
+    box-shadow: 5px 7px 0px black;
+    text-decoration: none;
+}
+
+#bio1 {
+    margin: 30px;
+    background-color: rgb(255, 224, 162);
+    border-color: rgb(255, 192, 74);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 7px;
+}
+
+.bio-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Adjust the gap between elements as needed */
+}
+
+.statbars {
+    display: flex;
+    flex-direction: column; /* Display statbars vertically */
+    gap: 20px; /* Adjust the gap between statbars as needed */
+}
+
+.statbar {
+    margin: 30px;
+    padding-left: 10px;
+    background-color: #6c547d;
+    border-color: rgb(67, 0, 83);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 7px;
+    max-width: 400px;
+}
+
+.abilitysbar {
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+    margin: 10px;
+    background-color: #6c547d;
+    border-color: rgb(67, 0, 83);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+    max-width: 1500px;
+}
+.imagejacob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.abilitys{
+    display: block;
+    text-align: start;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 10px;
+    background-color: #6c547d;
+    border-color: rgb(67, 0, 83);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+    max-width: 1500px;
+}
+img{
+    width: 80%;
+    height: auto;
+    margin: 30px;
+    border-radius: 25px;
+    border-color: rgb(67, 0, 83);
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 10px 14px 0px black;
+}
+a {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.header{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 224, 162);
+    border-color: rgb(255, 192, 74);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.Artwork{
+    margin-left: 50px;
+    width: 50%;
+}
+#animate{
+    padding: 10px;
+}
+#animate:hover{
+    background: #493955;
+}
+main{
+    max-width:2700px;
+    margin: auto;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.wrap{
+    margin: 0 auto;
+    max-width:2700px;
+}
+@media screen and (max-width: 847px) {
+    .link {
+        display: block;
+        scale: 1;
+        width: 90%;
+        margin-top: 35px;
+    }
+    nav {
+        display: block;
+        justify-content: center;
+        align-content: center;
+        gap: 20px; /* Adjust the gap between links as needed */
+        rotate: 0deg;
+    }
+    .bio-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .statbars {
+        display: flex;
+        flex-direction: column; /* Display statbars vertically */
+        gap: 20px; /* Adjust the gap between statbars as needed */
+    }
+    
+    .statbar {
+        margin: 30px;
+        padding-left: 10px;
+        background-color: #6c547d;
+        border-color: rgb(67, 0, 83);
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 7px;
+        max-width: 400px;
+    }
+    
+    .abilitysbar {
+        display: block;
+        text-align: center;
+        align-items: center;
+        padding: 2px;
+        margin: 5px;
+        background-color: #6c547d;
+        border-color: rgb(67, 0, 83);
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 25px;
+        transition-duration: 0.5s;
+    }
+    .imagejacob {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .abilitys{
+        display: block;
+        text-align: start;
+        align-items: center;
+        padding: 5px;
+        padding-left: 10px;
+        margin: 5px;
+        background-color: #6c547d;
+        border-color: rgb(67, 0, 83);
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 25px;
+        transition-duration: 0.5s;
+    }
+}
